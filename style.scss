@@ -15,6 +15,9 @@
 body {
     background-color: #000000;
     color: white;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
 }
 
 h1,
@@ -127,7 +130,8 @@ input {
         width: 90%;
         margin: auto;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        align-content: center;
 
         .img-video,
         .feat-info {
@@ -154,7 +158,6 @@ input {
         .img-video {
             position: relative;
             padding-bottom: 40px;
-            // border: 10px solid white;
 
             video {
                 position: absolute;
@@ -350,8 +353,11 @@ footer {
     .feature {
         .container {
             flex-direction: column;
-            text-align: center;
             align-items: center;
+
+            .feat-info {
+                text-align: center;
+            }
         }
 
         .container:nth-child(1) {
@@ -443,42 +449,6 @@ footer {
 
 @media (max-width: 650px) {
     .showcase {
-        .showcase-body {
-            width: 90%;
-
-            h1 {
-                font-size: 2.5rem;
-            }
-        }
-    }
-
-    .containerr {
-        width: 90%;
-        margin: auto;
-        .faq {
-            width: 100%;
-            h1 {
-                font-size: 2.5rem;
-            }
-        }
-
-        .floatingContainer {
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            input {
-                padding: 15px 15px;
-                width: 100%;
-            }
-            button {
-                margin: 10px 0;
-            }
-        }
-    }
-}
-
-@media (max-width: 450px) {
-    .showcase {
         .showcase-header {
             img {
                 width: 100px;
@@ -518,19 +488,45 @@ footer {
     .feature {
         .container {
             .img-video {
-                transform: scale(0.8);
+                transform: scale(0.7);
             }
+
+            .feat-info {
+                padding: 10px 30px;
+            }
+        }
+
+        #mobile {
+            transform: scale(0.9);
         }
     }
 
     .containerr {
         .faq {
+            width: 90%;
             .question {
                 .quest,
                 .ans {
                     font-size: 1.2rem;
                 }
             }
+        }
+
+        .floatingContainer {
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            input {
+                padding: 15px 15px;
+                width: 100%;
+            }
+            button {
+                margin: 10px 0;
+            }
+        }
+
+        p.info {
+            font-size: 1rem;
         }
     }
 }

@@ -490,6 +490,7 @@ footer .block .footer-links li {
     font-size: 1rem;
   }
   .showcase .showcase-body {
+    width: 95%;
     margin: 80px auto 0 auto;
   }
   .showcase .showcase-body h1 {
@@ -546,15 +547,6 @@ footer .block .footer-links li {
   }
   .containerr p.info {
     font-size: 1rem;
-  }
-}
-
-@media (max-width: 450px) {
-  .showcase .showcase-body {
-    width: 95%;
-  }
-  .showcase .showcase-body .floatingContainer input {
-    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */

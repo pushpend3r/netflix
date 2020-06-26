@@ -441,7 +441,7 @@ footer .block .footer-links li {
 @media (max-width: 850px) {
   .showcase .showcase-body {
     margin: 70px auto 0 auto;
-    width: 80%;
+    width: 95%;
   }
   .showcase .showcase-body h1 {
     font-size: 2.8rem;
@@ -465,7 +465,7 @@ footer .block .footer-links li {
   }
   .showcase .showcase-body .floatingContainer input {
     padding: 15px 15px;
-    width: 75%;
+    width: 100%;
   }
   .showcase .showcase-body .floatingContainer button {
     margin: 10px 0;
@@ -490,7 +490,6 @@ footer .block .footer-links li {
     font-size: 1rem;
   }
   .showcase .showcase-body {
-    width: 95%;
     margin: 80px auto 0 auto;
   }
   .showcase .showcase-body h1 {
@@ -504,7 +503,6 @@ footer .block .footer-links li {
     font-size: 1rem;
   }
   .showcase .showcase-body .floatingContainer input {
-    width: 100%;
     padding: 10px 10px;
   }
   .showcase .showcase-body .floatingContainer span {
